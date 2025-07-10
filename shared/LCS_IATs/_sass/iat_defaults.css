@@ -1,0 +1,527 @@
+/*========= Default CSS Values ==========*/
+@import "https://fonts.googleapis.com/css?family=Lato";
+select, input {
+  word-wrap: normal;
+  text-transform: none;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  box-sizing: border-box;
+  border: 1px solid #9EA5A9; }
+
+/* Font family for course */
+/* Setting default colour font family and size/scale */
+html,
+body {
+  color: #494C4E;
+  font-family: "Lato", sans-serif;
+  font-size: 100%; }
+
+/*========= Headings ==========*/
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-weight: bold;
+  color: #494C4E;
+  padding: 0; }
+
+h1,
+.h1 {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  /* Mobile Sizing - up to $screen-md*/
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  /* Tablet and up Sizing - from $screen-md*/ }
+
+@media screen and (min-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+    line-height: 3rem; } }
+
+h2,
+.h2 {
+  color: #017D79;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+  /* Mobile Sizing - up to $screen-md*/
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  /* Tablet and up Sizing - from $screen-md*/ }
+
+@media screen and (min-width: 768px) {
+  h2,
+  .h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem; } }
+
+h3,
+.h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* Mobile Sizing - up to $screen-md*/
+  font-size: 1.3125rem;
+  line-height: 1.5rem;
+  /* Tablet and up Sizing - from $screen-md*/ }
+
+@media screen and (min-width: 768px) {
+  h3,
+  .h3 {
+    font-size: 1.625rem;
+    line-height: 2.125rem; } }
+
+h4,
+.h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* Mobile Sizing - up to $screen-md*/
+  font-size: 1.1875rem;
+  line-height: 1.5rem;
+  /* Tablet and up Sizing - from $screen-md*/ }
+
+@media screen and (min-width: 768px) {
+  h4,
+  .h4 {
+    font-size: 1.5rem;
+    line-height: 2rem; } }
+
+h5,
+.h5 {
+  color: #000000;
+  margin-top: 0.5625rem;
+  margin-bottom: 0.5625rem;
+  /* Mobile Sizing - up to $screen-md*/
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  /* Tablet and up Sizing - from $screen-md*/ }
+
+@media screen and (min-width: 768px) {
+  h5,
+  .h5 {
+    font-size: 1.3125rem;
+    line-height: 1.75rem; } }
+
+h6,
+.h6 {
+  color: #000000;
+  margin-top: 0.5625rem;
+  margin-bottom: 0.5625rem;
+  /* Mobile Sizing - up to $screen-md*/
+  font-size: 1rem;
+  line-height: 1.5rem;
+  /* Tablet and up Sizing - from $screen-md*/ }
+
+@media screen and (min-width: 768px) {
+  h6,
+  .h6 {
+    font-size: 1.1875rem;
+    line-height: 1.75rem; } }
+
+/*========= Lists ==========*/
+ol,
+ul {
+  font-size: 1rem; }
+
+@media screen and (min-width: 768px) {
+  ol,
+  ul {
+    font-size: 1.1875rem; } }
+
+ol li,
+ul li {
+  margin-bottom: 0;
+  position: relative; }
+
+ol li ul,
+ol li ol,
+ul li ul,
+ul li ol {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem; }
+
+ul {
+  list-style: none; }
+
+ul li {
+  padding-left: 0.625rem; }
+
+ul li::before {
+  color: #000000;
+  content: '\2022';
+  display: inline-block;
+  font-size: 0.625rem;
+  margin-top: 6px;
+  margin-left: -1.5rem;
+  position: absolute;
+  text-align: center; }
+
+ul ol {
+  list-style: decimal; }
+
+ul ol li::before {
+  background: none;
+  border: none;
+  content: ''; }
+
+ul ol li ol {
+  list-style: lower-alpha; }
+
+ol li {
+  padding-left: 0.625rem; }
+
+ol ol {
+  list-style: lower-alpha; }
+
+li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+/*========= Text Elements ==========*/
+/* Styling for text elements, for example <p>, <span>, <em> and <strong>. */
+p {
+  /* Add any custom formatting to the P tag here. */
+  /* Mobile Sizing - up to $screen-md*/
+  font-size: 1rem;
+  line-height: 1.5rem;
+  /* Tablet and up Sizing - from $screen-md*/ }
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.1875rem;
+    line-height: 1.75rem; } }
+
+/*========= Page Break (Horizontal Rule) ==========*/
+hr {
+  border-top: 2px solid #9EA5A9;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+  /*
+    &.hr-alt {
+       border-top-color: $neutral-two;
+    }
+    */ }
+
+/*========= Tables ==========*/
+table {
+  border-radius: 5px;
+  border-collapse: initial;
+  border-spacing: 0; }
+
+.table-responsive,
+.table {
+  overflow-y: hidden;
+  color: #494C4E;
+  /* Table border bottom radius removed if caption present */ }
+
+.table-responsive caption,
+.table caption {
+  vertical-align: middle;
+  min-height: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+  /* Table Caption border - comment out if not needed in design */
+  border-top: none;
+  border-right: 1px solid #9EA5A9;
+  border-left: 1px solid #9EA5A9;
+  border-bottom: 1px solid #9EA5A9;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.table-responsive thead tr,
+.table thead tr {
+  background: #F7F7F7; }
+
+.table-responsive thead th,
+.table thead th {
+  border-top: 1px solid #9EA5A9;
+  border-right: none;
+  border-left: 1px solid #9EA5A9;
+  border-bottom: 1px solid #9EA5A9;
+  color: #494C4E;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.875rem;
+  padding: 0.625rem 1.25rem; }
+
+.table-responsive thead th:first-child,
+.table thead th:first-child {
+  border-top-left-radius: 5px;
+  min-width: 20%;
+  border-left: 1px solid #9EA5A9; }
+
+.table-responsive thead th:last-child,
+.table thead th:last-child {
+  border-top-right-radius: 5px;
+  border-right: 1px solid #9EA5A9; }
+
+.table-responsive thead th p,
+.table-responsive thead th a,
+.table-responsive thead th ol,
+.table-responsive thead th ul,
+.table thead th p,
+.table thead th a,
+.table thead th ol,
+.table thead th ul {
+  color: #494C4E; }
+
+.table-responsive thead th p:last-child,
+.table thead th p:last-child {
+  margin-bottom: 0; }
+
+.table-responsive tbody,
+.table tbody {
+  border-bottom-left-radius: 5px; }
+
+.table-responsive tbody tr:last-child,
+.table tbody tr:last-child {
+  /* Table border bottom radius - comment out if not needed in design (usually needed if curved border and no border on caption)
+              */ }
+
+.table-responsive tbody tr:last-child th:first-child,
+.table-responsive tbody tr:last-child td:first-child,
+.table tbody tr:last-child th:first-child,
+.table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 5px; }
+
+.table-responsive tbody tr:last-child th:last-child,
+.table-responsive tbody tr:last-child td:last-child,
+.table tbody tr:last-child th:last-child,
+.table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 5px; }
+
+.table-responsive tbody td,
+.table-responsive tbody th,
+.table tbody td,
+.table tbody th {
+  padding: 1.25rem;
+  border: 1px solid #9EA5A9;
+  border-right: none;
+  border-top: none;
+  font-size: 1.1875rem; }
+
+.table-responsive tbody td:last-child,
+.table-responsive tbody th:last-child,
+.table tbody td:last-child,
+.table tbody th:last-child {
+  border-right: 1px solid #9EA5A9; }
+
+.table-responsive tbody th,
+.table tbody th {
+  width: 20%; }
+
+.table-responsive tbody th p:last-child,
+.table tbody th p:last-child {
+  margin-bottom: 0; }
+
+.table-responsive caption + thead + tbody tr:last-child th:first-child,
+.table-responsive caption + thead + tbody tr:last-child td:first-child,
+.table caption + thead + tbody tr:last-child th:first-child,
+.table caption + thead + tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 0; }
+
+.table-responsive caption + thead + tbody tr:last-child th:last-child,
+.table-responsive caption + thead + tbody tr:last-child td:last-child,
+.table caption + thead + tbody tr:last-child th:last-child,
+.table caption + thead + tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 0; }
+
+.table-responsive tbody > tr > th,
+.table tbody > tr > th {
+  border-left: 1px solid #9EA5A9; }
+
+/*========= Buttons ==========*/
+button,
+.btn {
+  font-size: 1.125rem;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem 0.5rem;
+  line-height: 1.25;
+  -webkit-appearance: none;
+  /* Default Button and Primary Button - this can be split up if necessary */
+  /* Secondary Button */ }
+
+button.btn-primary,
+button.copy-btn,
+.btn.btn-primary,
+.btn.copy-btn {
+  background-color: #006FBF;
+  border-color: #006FBF;
+  color: #FFFFFF; }
+
+button.btn-primary:hover,
+button.copy-btn:hover,
+.btn.btn-primary:hover,
+.btn.copy-btn:hover {
+  background-color: #005694;
+  border-color: #005694;
+  color: #FFFFFF; }
+
+button.btn-primary:focus,
+button.copy-btn:focus,
+.btn.btn-primary:focus,
+.btn.copy-btn:focus {
+  background-color: #005694;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 86, 148, 0.5); }
+
+button.btn-primary:disabled,
+button.btn-primary[aria-expanded="true"],
+button.copy-btn:disabled,
+button.copy-btn[aria-expanded="true"],
+.btn.btn-primary:disabled,
+.btn.btn-primary[aria-expanded="true"],
+.btn.copy-btn:disabled,
+.btn.copy-btn[aria-expanded="true"] {
+  background-color: rgba(0, 111, 191, 0.8); }
+
+button.btn-primary:active,
+button.btn-primary:active:hover,
+button.btn-primary:active:focus,
+button.btn-primary:focus:hover,
+button.copy-btn:active,
+button.copy-btn:active:hover,
+button.copy-btn:active:focus,
+button.copy-btn:focus:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:active:hover,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:focus:hover,
+.btn.copy-btn:active,
+.btn.copy-btn:active:hover,
+.btn.copy-btn:active:focus,
+.btn.copy-btn:focus:hover {
+  background-color: rgba(0, 86, 148, 0.9);
+  border-color: rgba(0, 86, 148, 0.9);
+  color: #FFFFFF; }
+
+button.btn-primary:disabled,
+button.btn-primary[aria-expanded="true"],
+button.copy-btn:disabled,
+button.copy-btn[aria-expanded="true"],
+.btn.btn-primary:disabled,
+.btn.btn-primary[aria-expanded="true"],
+.btn.copy-btn:disabled,
+.btn.copy-btn[aria-expanded="true"] {
+  background-color: rgba(0, 111, 191, 0.7);
+  border-color: rgba(0, 111, 191, 0.7);
+  color: #FFFFFF; }
+
+button.btn-primary:disabled:hover,
+button.btn-primary[aria-expanded="true"]:hover,
+button.copy-btn:disabled:hover,
+button.copy-btn[aria-expanded="true"]:hover,
+.btn.btn-primary:disabled:hover,
+.btn.btn-primary[aria-expanded="true"]:hover,
+.btn.copy-btn:disabled:hover,
+.btn.copy-btn[aria-expanded="true"]:hover {
+  background-color: rgba(0, 111, 191, 0.7);
+  border-color: rgba(0, 111, 191, 0.7);
+  color: #FFFFFF; }
+
+button.btn-secondary,
+.btn.btn-secondary {
+  background-color: #E3E9F1;
+  border-color: #E3E9F1;
+  color: #494C4E; }
+
+button.btn-secondary:hover,
+.btn.btn-secondary:hover {
+  background-color: #CDD5DC;
+  border-color: #CDD5DC;
+  color: #494C4E; }
+
+button.btn-secondary:focus,
+.btn.btn-secondary:focus {
+  background-color: #CDD5DC;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 86, 148, 0.5); }
+
+button.btn-secondary:disabled,
+button.btn-secondary[aria-expanded="true"],
+.btn.btn-secondary:disabled,
+.btn.btn-secondary[aria-expanded="true"] {
+  background-color: rgba(227, 233, 241, 0.8); }
+
+button.btn-secondary:active,
+button.btn-secondary:active:hover,
+button.btn-secondary:active:focus,
+button.btn-secondary:focus:hover,
+.btn.btn-secondary:active,
+.btn.btn-secondary:active:hover,
+.btn.btn-secondary:active:focus,
+.btn.btn-secondary:focus:hover {
+  background-color: rgba(205, 213, 220, 0.9);
+  border-color: rgba(205, 213, 220, 0.9);
+  color: #494C4E; }
+
+button.btn-secondary:disabled,
+button.btn-secondary[aria-expanded="true"],
+.btn.btn-secondary:disabled,
+.btn.btn-secondary[aria-expanded="true"] {
+  background-color: rgba(227, 233, 241, 0.5);
+  border-color: rgba(227, 233, 241, 0.5);
+  color: #494C4E; }
+
+button.btn-secondary:disabled:hover,
+button.btn-secondary[aria-expanded="true"]:hover,
+.btn.btn-secondary:disabled:hover,
+.btn.btn-secondary[aria-expanded="true"]:hover {
+  background-color: rgba(227, 233, 241, 0.5);
+  border-color: rgba(227, 233, 241, 0.5);
+  color: #494C4E; }
+
+button.expandall,
+.btn.expandall {
+  margin-left: 0;
+  margin-bottom: 5px; }
+
+button.btn-reveal,
+.btn.btn-reveal {
+  margin: .5rem auto 1.5rem; }
+
+/*========= Button Focus Shadows Bootstrap Override ==========*/
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  background-color: #005694;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(0, 86, 148, 0.5);
+  color: #FFFFFF; }
+
+.btn-secondary.focus,
+.btn-secondary:focus,
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  background-color: #CDD5DC;
+  border-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(0, 86, 148, 0.5);
+  color: #494C4E; }
+
+/*========= Links ==========*/
+a {
+  color: #006FBF;
+  border-bottom: 1px dotted #006FBF;
+  font-weight: bold;
+  text-decoration: none; }
+
+a:hover,
+a:focus,
+a:active {
+  color: #005694;
+  border-bottom: 1px solid #005694;
+  text-decoration: none; }

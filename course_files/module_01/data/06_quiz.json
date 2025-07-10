@@ -1,0 +1,112 @@
+{
+    "General":{
+      "QuizName": "",
+      "HeadingLevel": 1,
+      "instructions": "none",
+      "feedBackType":"continuous",
+      "forceCorrect":false,
+      "repeatOnComplete":true,
+      "allowNone":false,
+      "allowPrevious":true,
+      "showHints": true,
+      "allowPartial": true,
+      "randomize": true,
+      "subtractWrong": true,
+      "preQuizText":"none",
+      "preQuizMedia":"none",
+      "postQuizText":"none",
+      "postQuizMedia":"none"
+    },
+    "Questions":[
+      {
+        "questionType":"Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText":"You see a student using their phone to look up answers during a test. Is this considered cheating?",
+        "hintText":"none",
+        "hintMedia":"none",
+        "answers": [
+          {
+            "answerText": "Yes",
+            "feedBack": "Using unauthorized electronic devices during a test is considered cheating.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "No",
+            "feedBack": "Using unauthorized electronic devices during a test is considered cheating."
+          }
+        ]
+      },
+      {
+        "questionType":"Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText":"A student buys a test answer key online and shares it with friends. Is this academic dishonesty?",
+        "hintText":"none",
+        "hintMedia":"none",
+        "answers": [
+          {
+            "answerText": "Yes",
+            "feedBack": "Buying and distributing test answer keys is a form of academic dishonesty.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "No",
+            "feedBack": "Buying and distributing test answer keys is a form of academic dishonesty."
+          }
+        ]
+      },
+      {
+        "questionType":"Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText":"A student invents data for their research project because they couldn't find enough sources. Is this fabrication?",
+        "hintText":"none",
+        "hintMedia":"none",
+        "answers": [
+          {
+            "answerText": "Yes",
+            "feedBack": "Inventing data or falsifying research findings is considered fabrication.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "No",
+            "feedBack": "Inventing data or falsifying research findings is considered fabrication."
+          }
+        ]
+      },
+      {
+        "questionType":"Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText":"A student submits a paper they wrote for a previous course without asking the current professor. Is this re-use of work?",
+        "hintText":"none",
+        "hintMedia":"none",
+        "answers": [
+          {
+            "answerText": "Yes",
+            "feedBack": "Submitting previously completed work for credit in another course without permission is considered re-use of work.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "No",
+            "feedBack": "Submitting previously completed work for credit in another course without permission is considered re-use of work."
+          }
+        ]
+      },
+      {
+        "questionType":"Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText":"A student copies a paragraph from a book and includes it in their essay without citation. Is this plagiarism?",
+        "hintText":"none",
+        "hintMedia":"none",
+        "answers": [
+          {
+            "answerText": "Yes",
+            "feedBack": "Using someone else's words without proper citation is considered plagiarism.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "No",
+            "feedBack": "Using someone else's words without proper citation is considered plagiarism."
+          }
+        ]
+      }
+    ]
+  }

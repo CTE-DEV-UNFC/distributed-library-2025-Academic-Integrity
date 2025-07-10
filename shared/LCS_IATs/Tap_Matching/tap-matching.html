@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Tap Matching CSS -->
+   <link href="css/tap-matching.min.css" rel="stylesheet">
+   <link href="thirdpartylib/animate-css/animate.min.css" rel="stylesheet">
+   <title>Matching Pictograms - TAP MATCHING DEMO</title>
+</head>
+
+<body>
+   <section id="dbox"></section>
+   <div id="screenAlert" aria-live="assertive"></div>
+   <p>
+      <script src="thirdpartylib/jquery/jquery-3.5.1.min.js"></script>
+      <script src="js/tap-matching.min.js"></script>
+      <script>
+         $(document).ready(function () {
+            TapMatchingApp.setupApp("data/tap-matching-data.json", "dbox");
+         });
+      </script>
+   </p>
+   <noscript>This activity will only load in an online environment with JavaScript enabled.</noscript>
+</body>
+
+</html>

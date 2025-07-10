@@ -1,0 +1,148 @@
+{
+    "ActivityName": "Test Your Knowledge",
+    "ActivityType": "manual",
+    "HeadingLevel": 1,
+    "FeedbackType": "continuous",
+    "Randomize": true,
+    "Instructions": "Check your understanding of the information you’ve learned by completing the following matching activity.",
+    "PreActivityText": "none",
+    "PreActivityMedia": "none",
+    "IncludePostPage": false,
+    "PostActivityText": "none",
+    "PostActivityMedia": "none",
+    "Questions": [
+        {
+            "text": "none",
+            "answerGroupKeys": ["1","2","3","5","7","8"],
+            "showGroups": "all"
+        }
+    ],
+    "Groups": [{
+            "key": "1",
+            "color": "default",
+            "feedback": "Proper referencing and citation are crucial to avoid plagiarism."
+        },
+        {
+            "key": "2",
+            "color": "default",
+            "feedback": "Proper paraphrasing and summarizing help maintain academic integrity."
+        },
+        {
+            "key": "3",
+            "color": "default",
+            "feedback": "Understanding course expectations helps prevent accidental academic misconduct."
+        },
+        {
+            "key": "5",
+            "color": "default",
+            "feedback": "Be cautious when collaborating to avoid violations of academic integrity."
+        },
+        {
+            "key": "7",
+            "color": "default",
+            "feedback": "Collaborative completion of group work helps prevent academic misconduct."
+        },
+        {
+            "key": "8",
+            "color": "default",
+            "feedback": "Managing academic materials responsibly prevents theft of intellectual property."
+        }
+    ],
+    "Options": [{
+            "text": "Proper Referencing & Citation ",
+            "group": "1",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 1
+        },
+        {
+            "text": "Ensuring you use APA style and reference all sources both in-text and in your reference list.",
+            "group": "1",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 2
+        },
+        {
+            "text": "Proper Paraphrasing & Summary ",
+            "group": "2",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 1
+        },
+        {
+            "text": "Compiling and synthesizing information in your own words and tracking sources for citations.",
+            "group": "2",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 2
+        },
+        {
+            "text": "Understand Expectations ",
+            "group": "3",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 1
+        },
+        {
+            "text": "Reading course materials, listening to instructors, and understanding permitted resources.",
+            "group": "3",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 2
+        },
+        {
+            "text": "Caution in Collaboration",
+            "group": "5",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 1
+        },
+        {
+            "text": "Avoiding working too closely with classmates on individual assignments.",
+            "group": "5",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 2
+        },
+        {
+            "text": "Caution in Group Work ",
+            "group": "7",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 1
+        },
+        {
+            "text": "Completing group assignments collaboratively to adhere to academic integrity standards.",
+            "group": "7",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 2
+        },
+        {
+            "text": "Manage Academic Materials Responsibly ",
+            "group": "8",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 1
+        },
+        {
+            "text": "Saving notes for personal reference and not sharing or posting them publicly.",
+            "group": "8",
+            "image": "",
+            "type": "text",
+            "color": "default",
+            "feedbackOrder": 2
+        }
+    ]
+}

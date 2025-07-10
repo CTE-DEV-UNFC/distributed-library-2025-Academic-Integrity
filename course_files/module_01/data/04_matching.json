@@ -1,0 +1,90 @@
+{
+    "ActivityName": "",
+    "ActivityType": "sort",
+    "HeadingLevel": 2,
+    "FeedbackType": "report",
+    "HighlightEffect": true,
+    "QuestionColumns": "1",
+    "Randomize": true,
+    "HorizontalAlignment": true,
+    "Instructions": "",
+    "PreActivityText": "none",
+    "PreActivityMedia": "none",
+    "IncludePostPage": true,
+    "PostActivityText": "none",
+    "PostActivityMedia": "none",
+    "AnswerNodes": [
+        {
+            "key": "KEY1",
+            "title": "Western Assumptions",
+            "color": "default",
+            "src": "none"
+        },
+        {
+            "key": "KEY2",
+            "title": "Common Knowledge",
+            "color": "default",
+            "src": "none"
+        },
+        {
+            "key": "KEY3",
+            "title": "Collaborative Work",
+            "color": "default",
+            "src": "none"
+        },
+        {
+            "key": "KEY4",
+            "title": "Collectivist Cultures",
+            "color": "default",
+            "src": "none"
+        },
+        {
+            "key": "KEY5",
+            "title": "Academic Integrity at UNF",
+            "color": "default",
+            "src": "none"
+        }
+    ],
+    "QuestionNodes": [
+        {
+            "question": "Generalized assumptions regarding appropriate academic conduct in Western educational institutions.",
+            "answer": "KEY1",
+            "type": "text",
+            "color": "default",
+            "correct": "Western assumptions often lead to misunderstandings about academic integrity among students from different cultural backgrounds.",
+            "wrong": "Western assumptions often lead to misunderstandings about academic integrity among students from different cultural backgrounds."
+        },
+        {
+            "question": "Information that is considered commonly understood in some cultures may be viewed differently across cultures, affecting student perceptions of whether it should be referenced.",
+            "answer": "KEY2",
+            "type": "text",
+            "color": "default",
+            "correct": "What is considered common knowledge can vary significantly between cultures, impacting perceptions of academic integrity.",
+            "wrong": "What is considered common knowledge can vary significantly between cultures, impacting perceptions of academic integrity."
+        },
+        {
+            "question": "Must be specified and sanctioned in Western institutions; otherwise, it may be viewed as cheating.",
+            "answer": "KEY3",
+            "type": "text",
+            "color": "default",
+            "correct": "In Western institutions, unsanctioned collaborative work is often seen as academic misconduct.",
+            "wrong": "In Western institutions, unsanctioned collaborative work is often seen as academic misconduct."
+        },
+        {
+            "question": "Cultures where group work is accepted and encouraged, even during exams and assignments.",
+            "answer": "KEY4",
+            "type": "text",
+            "color": "default",
+            "correct": "Collectivist cultures often encourage helping fellow students, which can be seen as cheating in Western contexts.",
+            "wrong": "Collectivist cultures often encourage helping fellow students, which can be seen as cheating in Western contexts."
+        },
+        {
+            "question": "A university policy based on Western ideals of academic integrity and standards upheld in Canada.",
+            "answer": "KEY5",
+            "type": "text",
+            "color": "default",
+            "correct": "UNF follows Western standards of academic integrity, which may differ from those in other cultures.",
+            "wrong": "UNF follows Western standards of academic integrity, which may differ from those in other cultures."
+        }
+    ]
+ }

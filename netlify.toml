@@ -1,0 +1,10 @@
+# netlify.toml
+
+[[headers]]
+  for = "/*"  # Apply these headers to all paths on your Netlify site
+
+  [headers.values]
+    # List all allowed origins for framing, separated by spaces.
+    # Include 'self' if you want your own Netlify domain to also be able to iframe itself.
+    # Add your localhost address with its specific port.
+    Content-Security-Policy = "frame-ancestors 'self' https://unfc-ca.libapps.com https://unfc-ca.libguides.com http://127.0.0.1:5501;"

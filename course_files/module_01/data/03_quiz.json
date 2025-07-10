@@ -1,0 +1,152 @@
+{
+    "General": {
+      "QuizName": "",
+      "HeadingLevel": 1,
+      "instructions": "none",
+      "feedBackType": "continuous",
+      "forceCorrect": false,
+      "repeatOnComplete": true,
+      "allowNone": false,
+      "allowPrevious": true,
+      "showHints": true,
+      "allowPartial": true,
+      "randomize": true,
+      "subtractWrong": true,
+      "preQuizText": "none",
+      "preQuizMedia": "none",
+      "postQuizText": "none",
+      "postQuizMedia": "none"
+    },
+    "Questions": [
+      {
+        "questionType": "Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText": "How can we define academic integrity?",
+        "hintText": "none",
+        "hintMedia": "none",
+        "answers": [
+          {
+            "answerText": "The quality of being honest and having strong moral principles",
+            "feedBack": "Academic integrity is all about honesty and strong moral principles in academic work.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "The ability to produce high-quality academic work",
+            "feedBack": "Academic integrity is all about honesty and strong moral principles in academic work."
+          },
+          {
+            "answerText": "The adherence to university policies and procedures",
+            "feedBack": "Academic integrity is all about honesty and strong moral principles in academic work."
+          },
+          {
+            "answerText": "The capacity to learn and understand complex concepts",
+            "feedBack": "Academic integrity is all about honesty and strong moral principles in academic work."
+          }
+        ]
+      },
+      {
+        "questionType": "Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText": "Which of the following is NOT considered academic misconduct according to the University of Niagara Falls Canada?",
+        "hintText": "none",
+        "hintMedia": "none",
+        "answers": [
+          {
+            "answerText": "Cheating",
+            "feedBack": "Collaboration, when done ethically and within the guidelines, is not considered academic misconduct."
+          },
+          {
+            "answerText": "Academic dishonesty",
+            "feedBack": "Collaboration, when done ethically and within the guidelines, is not considered academic misconduct."
+          },
+          {
+            "answerText": "Fabrication",
+            "feedBack": "Collaboration, when done ethically and within the guidelines, is not considered academic misconduct."
+          },
+          {
+            "answerText": "Collaboration",
+            "feedBack": "Collaboration, when done ethically and within the guidelines, is not considered academic misconduct.",
+            "scoreValue": 1
+          }
+        ]
+      },
+      {
+        "questionType": "Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText": "Why is it important for students to understand academic integrity?",
+        "hintText": "none",
+        "hintMedia": "none",
+        "answers": [
+          {
+            "answerText": "To avoid punishment from the university",
+            "feedBack": "Understanding academic integrity helps protect your future career opportunities and maintains the university's reputation."
+          },
+          {
+            "answerText": "To protect their future career opportunities and the university's reputation",
+            "feedBack": "Understanding academic integrity helps protect your future career opportunities and maintains the university's reputation.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "To ensure they get good grades",
+            "feedBack": "Understanding academic integrity helps protect your future career opportunities and maintains the university's reputation."
+          },
+          {
+            "answerText": "To make friends with other students",
+            "feedBack": "Understanding academic integrity helps protect your future career opportunities and maintains the university's reputation."
+          }
+        ]
+      },
+      {
+        "questionType": "Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText": "How does academic integrity support student learning?",
+        "hintText": "none",
+        "hintMedia": "none",
+        "answers": [
+          {
+            "answerText": "By allowing students to use shortcut solutions like plagiarism",
+            "feedBack": "Academic integrity ensures that students receive accurate feedback, which is crucial for their learning and development."
+          },
+          {
+            "answerText": "By ensuring students receive accurate feedback on their own work",
+            "feedBack": "Academic integrity ensures that students receive accurate feedback, which is crucial for their learning and development.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "By limiting the instructor's ability to provide constructive feedback",
+            "feedBack": "Academic integrity ensures that students receive accurate feedback, which is crucial for their learning and development."
+          },
+          {
+            "answerText": "By compromising the learning environment",
+            "feedBack": "Academic integrity ensures that students receive accurate feedback, which is crucial for their learning and development."
+          }
+        ]
+      },
+      {
+        "questionType": "Multiple Choice",
+        "maxScoreValue": 1,
+        "questionText": "Which of the following is a benefit of upholding academic integrity standards in your educational institution?",
+        "hintText": "none",
+        "hintMedia": "none",
+        "answers": [
+          {
+            "answerText": "Promoting validity and reliability of research findings",
+            "feedBack": "Upholding academic integrity promotes the validity and reliability of research findings, which is essential for credible academic work.",
+            "scoreValue": 1
+          },
+          {
+            "answerText": "Increasing the difficulty of academic work",
+            "feedBack": "Upholding academic integrity promotes the validity and reliability of research findings, which is essential for credible academic work."
+          },
+          {
+            "answerText": "Limiting student development and learning",
+            "feedBack": "Upholding academic integrity promotes the validity and reliability of research findings, which is essential for credible academic work."
+          },
+          {
+            "answerText": "Encouraging academic misconduct",
+            "feedBack": "Upholding academic integrity promotes the validity and reliability of research findings, which is essential for credible academic work."
+          }
+        ]
+      }
+    ]
+  }

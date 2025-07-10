@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>_MATCHING_ACTIVITY_TITLE_</title>
+   <!--Matching CSS-->
+      <link href="css/matching.min.css" rel="stylesheet">
+      <link href="thirdpartylib/pnotify/pnotify.custom.min.css" rel="stylesheet"> 
+   </head>
+
+<body>
+   <section id="dbox"></section>
+
+   <script src="thirdpartylib/jquery/jquery-3.5.1.min.js"></script>
+   <script src="js/matching.min.js"></script>
+   <script src="thirdpartylib/pnotify/pnotify.custom.min.js"></script>
+   <script>
+      $(document).ready(function () {
+         MatchingApp.setupApp("data/matching-data.json", "dbox");
+      });
+   </script>
+   <noscript>This activity will only load in an online environment with JavaScript enabled.</noscript>
+</body>
+
+</html>

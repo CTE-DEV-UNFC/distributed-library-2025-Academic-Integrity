@@ -1,0 +1,31 @@
+.CodeBox {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #CCCCCC;
+    background-color:  #EAEAEA;
+    padding: 24px;
+}
+
+.CodeBox > .box {
+    /* background-color: #0d1117; */
+    background-color: #2b2b2b;
+}
+
+.CodeBox > .box > pre {
+    margin: 0 !important; /* remove margin */
+}
+
+.CodeBox > .box > pre > code {
+    padding: 0 !important; /* remove padding */
+    padding-left: 48px !important; /* add left padding */
+    padding-right: 24px !important;
+    /* white-space: pre !important; */
+}
+
+.CodeBox > .box > pre > code.widthMaxContent {
+    width: max-content;
+}
+
+.CodeBox > .btn-wrap {
+    margin-top: 8px;
+}

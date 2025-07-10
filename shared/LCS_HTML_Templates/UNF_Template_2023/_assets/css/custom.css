@@ -1,0 +1,195 @@
+/*========= Empty CSS file for client to add custom CSS ==========*/
+.clo {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.clo li {
+    margin-left: 6em;
+    padding-bottom: 15px;
+    position: relative;
+    text-align: left;
+}
+
+.clo li span {
+    content: "";
+    position: absolute;
+    left: -3.5em;
+}
+
+.clo li span {
+    color: rgb(0, 132, 173);
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+}
+
+.clo li::before {
+    content: '' !important;
+}
+
+table {
+    border-top: 3px solid #005687 !important;
+}
+
+body>.splash-container>.container-fluid .table thead th,
+body>.splash-container>.container-fluid .table-responsive thead th,
+body>.splash-container>.container-fluid table thead th,
+body>[id*=d2l_read_]>.splash-container>.container-fluid .table thead th,
+body>[id*=d2l_read_]>.splash-container>.container-fluid .table-responsive thead th,
+body>[id*=d2l_read_]>.splash-container>.container-fluid table thead th {
+    border-top: 0;
+}
+
+.hiddenDiv {
+    display: none;
+}
+
+.carousel-item {
+    /* background-color:#000000; */
+}
+
+.carousel-caption {
+    position: relative;
+    padding: 20px;
+    background-color: #000000;
+    right: 0;
+    /* bottom: 20px; */
+    left: 0;
+}
+
+.carousel-caption p {
+    color: #ffffff;
+}
+
+.bg-img-wrapper {
+    margin-bottom: 20px;
+}
+
+.tooltip-inner {
+    background-color: #2b2b2b;
+    border-radius: 2px;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #2b2b2b;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: #2b2b2b;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #2b2b2b;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: #2b2b2b;
+}
+
+mjx-math,
+math {
+    height: 90px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    mjx-math,
+    math {
+        overflow: auto;
+        max-width: 100%;
+    }
+}
+
+.card-text mjx-container,
+.flip-card-front mjx-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*========= Popovers ==========*/
+.popover,
+.popover-body {
+    border: 1px solid #2b2b2b;
+    border-radius: 2px;
+    background-color: #2b2b2b;
+    color: #FFFFFF;
+    font-size: 0.842rem;
+    border-right-color: #2b2b2b;
+}
+
+.popover.bs-popover-top>.arrow:after,
+.popover-body.bs-popover-top>.arrow:after {
+    border-top-color: #2b2b2b !important;
+}
+
+.popover.bs-popover-right>.arrow:after,
+.popover-body.bs-popover-right>.arrow:after {
+    border-right-color: #2b2b2b;
+}
+
+.popover.bs-popover-bottom>.arrow:after,
+.popover-body.bs-popover-bottom>.arrow:after {
+    border-bottom-color: #2b2b2b;
+}
+
+.popover.bs-popover-left>.arrow:after,
+.popover-body.bs-popover-left>.arrow:after {
+    border-left-color: #2b2b2b;
+}
+
+
+/*========= Graphic Tabs Fixes ==========*/
+/* GRAPHIC TABS - Ensures that images are contained, not repeated, and centered.
+Previously, large images might have been cut-off or mis-placed. */
+.bg-img-wrapper {
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+/*========= Lightbox Fixes ==========*/
+
+/* LIGHTBOX - headers white */
+.carousel-caption.lightbox h1,
+.carousel-caption.lightbox h2,
+.carousel-caption.lightbox h3,
+.carousel-caption.lightbox h4,
+.carousel-caption.lightbox h5,
+.carousel-caption.lightbox h6 {
+    color: white !important;
+}
+/* LIGHTBOX - better spacing for p */
+.carousel-caption.lightbox p {
+    margin-bottom: 8px;
+    line-height: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* LIGHTBOX - bullets white */
+.carousel-caption.lightbox ul li::before {
+    color: white !important;
+}
+
+
+/*========= 
+Rules to remove hr above h2,
+if h2 is inside a callout, jumbotron, or panel,
+and h2 appears as the first contained element.
+==========*/
+
+/* For callouts and icon callouts */
+.card .card-text > hr:first-child, /* for callouts */
+.jumbotron > hr:first-child, /* for jumbotrons */
+.stacked-panels .card-body > hr:first-child, /* for panels stacked */
+.two-col-panels .card-body > hr:first-child /* for panels side by side */
+{
+    display: none;
+}

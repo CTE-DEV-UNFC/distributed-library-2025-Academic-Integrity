@@ -1,0 +1,42 @@
+ /* Example CSS file for clients to add own style sheet
+ */
+ 
+ :root{
+   --primary-dark: #005295;
+   --primary: #f5f019;
+   --neutral-one-head: #00002f;
+   --font-family-one: arial, helvetica, sans-serif;
+}
+
+ /*========= Headings ==========*/
+body:not(.template-fallback) h1,
+body:not(.template-fallback) h2,
+body:not(.template-fallback) h3,
+body:not(.template-fallback) h4,
+body:not(.template-fallback) h5,
+body:not(.template-fallback) h6 {
+  font-family: var(--font-family-one) !important;
+  color: var(--neutral-one-head);
+}
+
+ /*========= Blockquotes ==========*/
+ /* Regular Blockquote */
+ .d2l-element blockquote:not(.blockquote-lg) {
+   border-left-color: var(--primary);
+ }
+  /* Large Blockquote */
+ .d2l-element blockquote.blockquote-lg:before {
+   background-color: var(--primary);
+ }
+
+  /*========= Callouts ==========*/
+  .d2l-element .card-standard,
+  .d2l-element .card-graphic {
+    border-color: var(--primary);
+  }
+
+   /*========= Jumbotrons ==========*/
+ .d2l-element .jumbotron {
+   background-color: var(--primary-dark);
+   color: #FFFFFF;
+ }

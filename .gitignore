@@ -1,0 +1,26 @@
+# ignore environment files
+.env
+**/*.env*
+
+# ignore node_modules
+node_modules
+**/node_modules
+
+# ignore possible MacOS junk file
+.DS_Store
+**/.DS_Store
+
+# ignore video files
+
+## mp4
+.mp4
+**/*.mp4*
+**/**/*.mp4*
+
+## mov
+.mov
+**/*.mov*
+**/**/*.mov*
+
+# ignore personal .vscode settings
+.vscode
